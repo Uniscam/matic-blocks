@@ -1,12 +1,12 @@
 {
-  "name": "heco-blocks",
+  "name": "matic-blocks",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "create-local": "graph create --node http://localhost:8020/ heco-blocks",
-    "remove-local": "graph remove --node http://localhost:8020/ heco-blocks",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 heco-blocks"
+    "create-local": "graph create --node http://localhost:8020/ matic-blocks",
+    "remove-local": "graph remove --node http://localhost:8020/ matic-blocks",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 matic-blocks"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "^0.17.1",

@@ -23,4 +23,4 @@ export function handleBlock(block: EthereumBlock): void {
     blockEntity.size = block.size;
     blockEntity.unclesHash = block.unclesHash.toHex();
     blockEntity.save();
-  }
+}
