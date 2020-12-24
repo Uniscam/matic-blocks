@@ -8,7 +8,7 @@ dataSources:
     name: ConverterRegistryContract
     network: matic
     source:
-      address: "0x987493B651F91D01F5Bc8f59E9f701765E31C5b4"
+      address: "0x1875fcC416a92e04Ee23d2077203B02f3a51D0C0"
       abi: ConverterRegistryContract
     mapping:
       kind: ethereum/events
